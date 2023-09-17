@@ -11,7 +11,7 @@ function typeWriter() {
 }
 
 //count down
-var countDownDate = new Date("Sept 15, 2023 09:00:00").getTime();
+var countDownDate = new Date("Oct 15, 2023 09:00:00").getTime();
 var x = setInterval(function () {
   var now = new Date().getTime();
   var difference = countDownDate - now;
