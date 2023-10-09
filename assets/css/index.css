@@ -36,6 +36,10 @@ header {
   width: 100%;
 }
 
+.sponsor{
+  width: 100%;
+}
+
 .hori-line {
   display: flex;
   justify-content: center;
@@ -273,6 +277,30 @@ a.nav-link:hover {
   to {
     opacity: 1;
   }
+}
+
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-gallery > li {
+  flex-basis: 350px; 
+  /* width: 350px; */
+  /* margin: 5px; */
+  padding: 5px;
+  list-style: none;
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
 }
 
 .mySlides1 {
@@ -701,6 +729,9 @@ footer {
   .footer-container {
     display: flex !important;
     flex-direction: row;
+    /* text-align: center;
+    align-items: center; */
+    justify-content: center;
   }
 }
 
